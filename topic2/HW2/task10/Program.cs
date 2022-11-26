@@ -8,10 +8,10 @@ Console.WriteLine("Введите трехзначное число");
 int number = Convert.ToInt32(Console.ReadLine());
 if (number > 99 && number < 1000)
 {
-   int second = (number % 100) / 10;
+    int second = (number % 100) / 10;
     Console.WriteLine(second);
 }
 else
 {
-   Console.WriteLine("Некорректное значение! Необходимо ввести трехзначное число!"); 
+    Console.WriteLine("Некорректное значение! Необходимо ввести трехзначное число!");
 }
